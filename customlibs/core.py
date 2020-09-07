@@ -11,6 +11,12 @@ def rm_corr(df, thresh):
     return df.drop(drop_ls, axis=1)
 
 
+def standardize(df):
+    for column in df.columns:
+        df[column] = (df[column] - df[column].mean()) / df[column].std()
+    return df
+
+
 def get_r_sq(X, y):
     model = LinearRegression()
     model.fit(X, y)
