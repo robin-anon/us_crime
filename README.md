@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We seek to analyze, using publicly available data, the key drivers of crime in major U.S. cities.
+We seek to analyze, using publicly available data, the key drivers of crime in major US cities.
 
 ## Methodology
 
